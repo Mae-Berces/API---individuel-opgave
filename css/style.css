@@ -1,0 +1,25 @@
+/**
+ * file: css/style.css
+ **/
+@import url("https://use.typekit.net/noa7koe.css");
+
+header {
+    background-image: url(/images/efter%C3%A5rlanding.png);
+    height: 500px;
+}
+
+body {
+    font-family: liebeerika, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #D45B12;
+    font-size: 100px;
+}
+
+/***********************************************/
+/********* stylesheet for footer **************/
+footer {
+    background-image: url(/images/Efter%C3%A5rsfooter.png);
+    height: 500px;
+}
