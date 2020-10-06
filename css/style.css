@@ -23,3 +23,15 @@ footer {
     background-image: url(/images/Efter%C3%A5rsfooter.png);
     height: 500px;
 }
+
+/***********************************************/
+/********* stylesheet for mapbox **************/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}

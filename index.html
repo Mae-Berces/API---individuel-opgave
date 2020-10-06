@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
     <link href="https://use.typekit.net/noa7koe.css" rel="stylesheet">
 
 </head>
@@ -19,14 +21,18 @@
     </header>
     <main>
         <h2>Efterårsideer</h2>
-        <p>Halloween er hyggelig uhygge og dejlige fridage med børnene. 
-Her er nogle Efterårsideer, du kan lave selv med børnene.</p>
+        <p>Halloween er hyggelig uhygge og dejlige fridage med børnene.
+            Her er nogle efterårsideer, du kan lave selv med børnene.</p>
+
+
+        <div id="map"></div>
+
     </main>
 
 
     <footer>
-
-
+<h8>Efterårs vejr lige nu</h8>
+  <div id="result"></div>
     </footer>
     <script type="text/javascript" src=""></script>
 </body>
