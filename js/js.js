@@ -65,6 +65,6 @@ console.log('file: js/js.js loaded');
             var map = new mapboxgl.Map({
                 container: 'map', // container id
                 style: 'mapbox://styles/jennymae/ckfxt6os90k6p19qipk7uwlyf', // style URL
-                center: [10.218, 56.154], // starting position [lng, lat]
+                center: [10.551,56.424], // starting position [lng, lat]
                 zoom: 14 // starting zoom
             });
