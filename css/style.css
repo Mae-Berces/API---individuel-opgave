@@ -2,9 +2,11 @@
  * file: css/style.css
  **/
 @import url("https://use.typekit.net/noa7koe.css");
-
+/***********************************************/
+/********* stylesheet for header**************/
 header {
-    background-image: url(/images/efter%C3%A5rlanding.png);
+    background-image: url(../images/efter%C3%A5rlanding.png);
+  background-position: top;
     height: 500px;
 }
 
@@ -20,7 +22,7 @@ body {
 /***********************************************/
 /********* stylesheet for footer **************/
 footer {
-    background-image: url(/images/Efter%C3%A5rsfooter.png);
+    background-image: url(../images/Efter%C3%A5rsfooter.png);
     height: 500px;
 }
 
