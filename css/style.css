@@ -31,9 +31,12 @@ body {
 /********* stylesheet for footer **************/
 footer {
     background-image: url(../images/Efter%C3%A5rsfooter.png);
+      background-position: bottom;
     height: 500px;
 }
-
+#result{
+     padding-bottom:400px;
+}
 /***********************************************/
 /********* stylesheet for mapbox **************/
 body {
